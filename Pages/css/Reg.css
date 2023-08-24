@@ -1,0 +1,44 @@
+#main
+{
+    height: 10cap;
+    margin-bottom: 0cap;
+    text-align: center;
+    border-bottom: 0.2cap solid gray;
+}
+
+.field
+{
+    width: 49.8%;
+    height: 74.4cap;
+    margin: 0%;
+    display: inline-table;
+    text-align: center;
+}
+
+.input
+{
+    width: 40%;
+    height: 5%;
+    margin-bottom: 3cap;
+    font-size: large;
+}
+
+.button
+{
+    width: 40%;
+    height: 5cap;
+    margin-bottom: 0.4%;
+    padding-left: 1%;
+    text-align: center;
+    border: thick solid #ffffff;
+    border-radius: 10cap;
+    font-size: large;
+    color: #ffffff;
+
+    transition: transform 0.8s;
+}
+
+.button:hover
+{
+    transform: scale(1.2);
+}

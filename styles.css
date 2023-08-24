@@ -1,0 +1,59 @@
+#title
+{
+    width: 162.3cap;
+    height: 45cap;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    background-color: #00ccff;
+}
+
+#countries
+{
+    background-color: #71dab7;
+    margin-bottom: 4%;
+}
+
+#banks
+{
+    background-color: lightblue;
+    margin-bottom: 0%;
+}
+
+#buttons
+{
+    margin-top: 0.4%;
+    margin-bottom: 0.4%;
+}
+
+.block
+{
+    width: 100%;
+    margin-left: 0px;
+    height: 30cap;
+}
+
+.button
+{
+    width: 40%;
+    height: 5cap;
+    padding-left: 1%;
+    text-align: center;
+    border: thick double #ffffff;
+    border-radius: 10cap;
+    background-color: #56a853;
+    display: inline-block;
+
+    transition: transform 0.8s;
+}
+
+.button:hover
+{
+    transform: scale(1.2);
+}
+
+.buttons_text
+{
+    margin: 3%;
+    color:#ffffff;
+}
