@@ -1,0 +1,25 @@
+#main
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-sizing: 100%;
+    background-color: #0a0f91;
+    color:#ffffff;
+}
+
+#name
+{
+    margin-top: 5%;
+    margin-left: 3%;
+    font-size: 48pt;
+}
+
+#wellcome
+{
+    position: relative;
+    margin-top: initial;
+    margin-bottom: 5%;
+    margin-right: 3%;
+    font-size: 32pt;
+}

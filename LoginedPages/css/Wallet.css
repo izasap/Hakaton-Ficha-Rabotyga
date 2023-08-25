@@ -1,0 +1,38 @@
+#main
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: red;
+    text-align: center;
+}
+
+#top
+{
+    width: 100%;
+    height: 12%;
+    background-color: #898989;
+}
+
+#left
+{
+    width: 20%;
+    height: 88%;
+    background-color: #000000;
+    color: #ffffff;
+    display: inline-block;
+}
+
+#mid
+{
+    width: 80%;
+    height: 88%;
+    background-color: #aaaaaa;
+    display: inline-block;
+}
+
+.block
+{
+}
