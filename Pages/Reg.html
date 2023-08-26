@@ -10,17 +10,20 @@
     </div>
     <div class="field" style="background-color: lightblue; border-right: 0.2cap solid gray;">
         <h2>Вход</h2>
-        <input class="input" name="login" type="text" placeholder="Логин"><br>
+        <input class="input" name="number" type="text" placeholder="Номер телефона"><br>
         <input class="input" name="password" type="text" placeholder="Пароль"><br>
-        <input class="button" name="log" type="button" value="Войти" style="background-color: blue;">
+        <input class="button" name="log" type="button" onclick="GetNumber(document.getElementsByName('number')[0].value)" value="Войти" style="background-color: blue;">
+        <p name="loginlog" class="input err"></p>
     </div>
 
     <div class="field" style="background-color: lightgreen;">
         <h2>Регистрация</h2>
-        <input class="input" name="reglogin" type="text" placeholder="Логин"><br>
+        <input class="input" name="regnumber" type="text" placeholder="Номер телефона"><br>
         <input class="input" name="mail" type="text" placeholder="Почта"><br>
         <input class="input" name="regpassword" type="text" placeholder="Пароль"><br>
         <input class="input" name="regpasswordtoo" type="text" placeholder="Подтвердите пароль"><br>
-        <input class="button" name="reg" type="button" value="Зарегистрироваться" style="background-color: green;">
+        <input class="button" name="reg" type="button" onclick="CheckPass()" value="Зарегистрироваться" style="background-color: green;">
+        <p name="registerlog" class="input err"></p>
+        <script src="js/Reg.js"> </script>
     </div>
 </body>

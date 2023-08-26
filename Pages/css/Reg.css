@@ -38,6 +38,11 @@
     transition: transform 0.8s;
 }
 
+.err
+{
+    color: red;
+}
+
 .button:hover
 {
     transform: scale(1.2);
