@@ -2,6 +2,7 @@
 <head>
     <link rel="stylesheet" href="css/Reg.css">
     <title>Вход и регистрация</title>
+    <script src="js/Reg.js"> console.log("Проверка"); </script>
 </head>
 
 <body style="margin: 0%; padding: 0%;">
@@ -12,8 +13,29 @@
         <h2>Вход</h2>
         <input class="input" name="number" type="text" placeholder="Номер телефона"><br>
         <input class="input" name="password" type="text" placeholder="Пароль"><br>
-        <input class="button" name="log" type="button" onclick="GetNumber(document.getElementsByName('number')[0].value)" value="Войти" style="background-color: blue;">
+        
+        <input class="button" name="log" type="button" onclick="check(document.getElementsByName('number')[0].value, document.getElementsByName('password')[0].value)" value="Войти" style="background-color: blue;">
         <p name="loginlog" class="input err"></p>
+
+        <!--<script>
+
+        // let number_1 = 123;
+        // let number_2 = 321;
+        // let password_1 = 123
+        // let password_2 = 321;
+
+        // let num = document.getElementsByName("number")[0].value;
+        // let pas = document.getElementsByName("password")[0].value;
+        // let log = document.getElementsByName("loginlog")[0].value;
+
+        // if((num.value == number_1.value && pas.value == password_1.value) || (num.value == number_2.value && pas.value == password_2.value)) {
+
+        // } else {
+        //     log.innerHTML = "Ошибка! Проверьте логин или пароль";
+        //     console.log("Ошибка! Проверьте логин или пароль");
+        // }
+
+        </script>-->
     </div>
 
     <div class="field" style="background-color: lightgreen;">
@@ -24,6 +46,5 @@
         <input class="input" name="regpasswordtoo" type="text" placeholder="Подтвердите пароль"><br>
         <input class="button" name="reg" type="button" onclick="CheckPass()" value="Зарегистрироваться" style="background-color: green;">
         <p name="registerlog" class="input err"></p>
-        <script src="js/Reg.js"> </script>
     </div>
 </body>
